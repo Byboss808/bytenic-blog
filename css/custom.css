@@ -129,18 +129,25 @@ a:focus {
     text-shadow: 0 0 8px rgba(77, 163, 255, 0.6);
 }
 
-/* 手机端响应式优化 */
+/* ========================================================
+   📱 手机端响应式优化（与电脑端共用同一个视频背景）
+   ======================================================== */
 @media screen and (max-width: 768px) {
-    /* 手机端隐藏高负载的视频 */
+    /* 1. 解除手机端对视频的隐藏，让它和电脑端一样正常显示 */
     .full-bg-video {
+        display: block !important;
+    }
+    
+    /* 2. 彻底关闭原本的图片背景 */
+    #web_bg {
         display: none !important;
     }
-    #web_bg {
-        display: block !important;
-        background-image: url('/images/phone_bg.jpg') !important;
-        background-size: cover !important;
-        background-position: center !important;
-        background-repeat: no-repeat !important;
-        background-attachment: fixed !important;
+
+    /* 3. 针对移动端浏览器（如手机 Edge/Safari）微调卡片模糊，确保滑屏时流畅不卡顿 */
+    .recent-post-item,
+    .card-widget,
+    .layout>div:first-child:not(.recent-posts) {
+        backdrop-filter: blur(16px) !important; /* 稍微调低一点点手机端的模糊半径，大幅减少手机 GPU 的滑屏渲染压力 */
+        -webkit-backdrop-filter: blur(16px) !important;
     }
 }
