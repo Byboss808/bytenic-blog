@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>独立空间、港片与微光：22岁的存在主义碎碎念</title>
-      <link href="/2026/07/06/my-life/"/>
-      <url>/2026/07/06/my-life/</url>
+      <title>Hello World! 0x00 欢迎来到 Bytenic 的数字自留地</title>
+      <link href="/2026/07/05/hello-world/"/>
+      <url>/2026/07/05/hello-world/</url>
       
-        <content type="html"><![CDATA[<h3 id="在喧嚣里找个角落"><a href="#在喧嚣里找个角落" class="headerlink" title="在喧嚣里找个角落"></a>在喧嚣里找个角落</h3><p>有时候会陷入“存在主义危机”，想人生的意义，想未来的出路。这时候，我喜欢用自己最舒适的方式去调解。</p><h4 id="1-独处的舒适区"><a href="#1-独处的舒适区" class="headerlink" title="1. 独处的舒适区"></a>1. 独处的舒适区</h4><p>特别喜欢在饭堂挑一个没人的角落静静地坐着，或者在黄昏时戴上耳机，在宁静的路上一个人漫步。耳边放着张国荣的歌，听了他五年的歌，那种质感总能让我安静下来。</p><p><strong>生活就像渗透测试，没有一蹴而就的 Flag，只有不断调试、不断寻找突破口的过程。</strong></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="0x01-关于我：网安萌新"><a href="#0x01-关于我：网安萌新" class="headerlink" title="0x01 关于我：网安萌新"></a>0x01 关于我：网安萌新</h2><p>你好，我是 <strong>白杨</strong>，在网络世界里更习惯被称为 <strong>Bytenic</strong>(拜特尼克)。</p><p>这里是 <code>bytenic.dev</code> 的第一篇正式文章。搭建这个独立博客网站的初衷，是为了记录自己在网络安全、Web 渗透测试以及 CTF 竞赛路上的点点滴滴。以及开辟一条能帮助萌新师傅们的扫盲之路。</p><p>偶然间我也会陷入所谓的“存在主义危机”，去琢磨人生的出路和意义。但我发现，治愈焦虑最好的解药就是<strong>立刻动起来</strong>。洗个痛快澡、跑个步，或者一头扎进 Linux 命令和配置复盘里，那种代码跑通后的掌控感，能让我瞬间找回向前的动力。</p><blockquote><p>人生没有白走的路，每一步都在为你的底层架构添砖加瓦。</p></blockquote><hr><h2 id="0x02-我的装备与任务"><a href="#0x02-我的装备与任务" class="headerlink" title="0x02 我的装备与任务"></a>0x02 我的装备与任务</h2><p>搞网络安全，手头必须有趁手的家伙事。目前陪我主力奋战的是一台 <strong>联想 Y7000P</strong>（i7-14700HX &#x2F; RTX4060 &#x2F; 16GB &#x2F; 1TB SSD）。仅供萌新师傅们参考o。</p><p>回望过去一年，看着 Typora 陆陆续续敲下了超过 2万字的技术配置与基础复盘，只能说：老己，你辛苦了，向着渗透进攻！！</p><p>后续会更新分享笔记工具思路等等。</p><blockquote><p>花有重开日，人无在少年。</p></blockquote><hr><h2 id="0x03-屏幕之外"><a href="#0x03-屏幕之外" class="headerlink" title="0x03 屏幕之外"></a>0x03 屏幕之外</h2><p>黑客帝国式的极客生活之外：</p><ul><li><strong>音乐是精神食粮</strong>：累了困了不喝东鹏特饮，寻找我的耳机播放一首张国荣哥哥的《共同渡过》吧。00后的小登也是坐上了非主流的末班车，所有再来一首韩国T-ara的《DAY BY DAY》吧。</li><li><strong>签个到吧</strong>：ZmxhZ3t3ZWxjb21lX3RvX2J5dGVuaWMuZGV2fQ&#x3D;&#x3D;</li></ul><hr><h2 id="0x04-写给萌新师傅们"><a href="#0x04-写给萌新师傅们" class="headerlink" title="0x04 写给萌新师傅们"></a>0x04 写给萌新师傅们</h2><p>在网络安全和 CTF 的圈子里，大家都习惯互相称呼一声“师傅”。这一声“师傅”不看学历，不排资历，只看技术和手头过的硬核功夫。</p><p>这一路走来，太清楚自学是一种什么样的体验：</p><ul><li><strong>枯燥与怀疑</strong>：没有电影里敲几下回车就黑掉全场的潇洒，多的是反反复复刷课、记了后面忘前面的沮丧 </li><li><strong>配置的折磨</strong>：为了搭一个靶场环境，可能要跟各种报错死磕一整天，敲命令敲到怀疑人生</li><li><strong>前路的焦虑</strong>：面对社会上的各种论调，有时候看着记忆断档的笔记，真的会陷入自我怀疑的怪圈</li></ul><p>但我现在想对每一个萌新师傅说：<strong>忘掉暂时记不住的焦虑，动手去敲，去配置，去把环境跑通。</strong> </p><p>天也老任海也老。任凭外界再嘈杂，在不断的学习下。终究会在你成功拿到一个又一个 System 权限、斩获一个又一个核心漏洞的瞬间。种一棵树最好的时间是十年前，其次是现在。既然我们都站在这条赛道上，那就各自沉淀。</p><hr><h2 id="0x06-结语"><a href="#0x06-结语" class="headerlink" title="0x06 结语"></a>0x06 结语</h2><p>正如经典港片里演的那样，江湖路漫漫…… 欢迎经常来 <code>bytenic.dev</code> 踩踩！!</p>]]></content>
       
       
       <categories>
@@ -20,96 +20,7 @@
       
         <tags>
             
-            <tag> 随笔 </tag>
-            
-            <tag> 港片 </tag>
-            
-            <tag> 碎碎念 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>我的网络安全自学主线任务</title>
-      <link href="/2026/07/06/learning-linux/"/>
-      <url>/2026/07/06/learning-linux/</url>
-      
-        <content type="html"><![CDATA[<h3 id="为什么选择这条路？"><a href="#为什么选择这条路？" class="headerlink" title="为什么选择这条路？"></a>为什么选择这条路？</h3><p>2025年9月来到信息工程学院，成为首届信息安全技术应用专业的一员。既然不考虑民办专升本，那我的最终毕业目标就只有一个：<strong>苦练技术，毕业直接冲击初级渗透测试工程师。</strong></p><h4 id="1-我的自学主线进度"><a href="#1-我的自学主线进度" class="headerlink" title="1. 我的自学主线进度"></a>1. 我的自学主线进度</h4><p>目前跟着守夜人 Jaden 老师的付费课程，主线任务推进情况如下：</p><ul><li><strong>Windows &amp; Linux 基础</strong>：已通关，目前累计在 Typora 记录了约2 万字的命令与配置复盘。</li><li><strong>网络与 Web 架构</strong>：正在攻克中间件的繁琐配置。</li><li><strong>靶场部署</strong>：已顺利跟着课程全部部署完成，终于有了自己的实验基地。</li></ul><h4 id="2-今日-Linux-命令复盘"><a href="#2-今日-Linux-命令复盘" class="headerlink" title="2. 今日 Linux 命令复盘"></a>2. 今日 Linux 命令复盘</h4><ul><li><code>hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</code>：今天折腾 Hexo 博客底层架构学到的新命令，深刻体会到了 YAML 语法的“空格强迫症”。</li><li><code>ls -la</code> &#x2F; <code>chmod +x</code>：后续在 Linux 下跑扫描脚本和木马时最基础的权限赋予操作。</li></ul><p><strong>拒绝记忆断档，枯燥时就去洗个澡、跑个步，回来继续盘它！</strong></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习分享 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 自学成长 </tag>
-            
-            <tag> Linux </tag>
-            
-            <tag> 学习笔记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>HECTF 2026 Web题解与思路复盘</title>
-      <link href="/2026/07/06/ctfshow%E8%8F%9C%E7%8B%97%E6%9D%AF/"/>
-      <url>/2026/07/06/ctfshow%E8%8F%9C%E7%8B%97%E6%9D%AF/</url>
-      
-        <content type="html"><![CDATA[<h3 id="迈出网络安全实战的第一步"><a href="#迈出网络安全实战的第一步" class="headerlink" title="迈出网络安全实战的第一步"></a>迈出网络安全实战的第一步</h3><p>今天在本地靶场和 CTF 平台上啃了几道 Web 题目，顺便把思路用 Typora 梳理成 Writeup（WP）：</p><h4 id="1-SQL-注入基础"><a href="#1-SQL-注入基础" class="headerlink" title="1. SQL 注入基础"></a>1. SQL 注入基础</h4><ul><li><strong>核心思路</strong>：寻找参数输入点的过滤缺陷，尝试联合查询（Union Select）注入。</li><li><strong>常用命令</strong>：<br><code>&#39; union select 1,database(),version()#</code> 确认数据库名和版本。</li><li><strong>复盘感悟</strong>：看课时觉得“这有什么难的”，自己动手部署靶场去抓包、测盲注的时候才发现，少一个单引号或者大小写过滤都能卡半天。</li></ul><h4 id="2-下一步计划"><a href="#2-下一步计划" class="headerlink" title="2. 下一步计划"></a>2. 下一步计划</h4><p>抓包、网络协议中层学习（阶段八）必须提上日程了，信息收集的内功也得同步跟上。技术需要硬，多看 WP，多动手</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> CTF专栏 </category>
-          
-          <category> ctfshow </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> CTF </tag>
-            
-            <tag> Web安全 </tag>
-            
-            <tag> 渗透测试 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2026/07/05/hello-world/"/>
-      <url>/2026/07/05/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to Hexo! This is your very first post.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我踏着马儿来啦~</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> CTF解题 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hello </tag>
+            <tag> 你好 世界 </tag>
             
         </tags>
       
