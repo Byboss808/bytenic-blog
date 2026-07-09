@@ -5,10 +5,10 @@
     
     <entry>
       <title>ctfshow菜狗杯</title>
-      <link href="/2026/07/09/ctfshow%E8%8F%9C%E7%8B%97%E6%9D%AF1/"/>
-      <url>/2026/07/09/ctfshow%E8%8F%9C%E7%8B%97%E6%9D%AF1/</url>
+      <link href="/2026/07/09/ctfshow%E8%8F%9C%E7%8B%97%E6%9D%AF/"/>
+      <url>/2026/07/09/ctfshow%E8%8F%9C%E7%8B%97%E6%9D%AF/</url>
       
-        <content type="html"><![CDATA[<hr>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>本篇由CTF show新手必刷菜狗杯平台和各个师傅的提供</p><p>为了方便阅读，文章会尽量将每一步操作、每一个知识点都解释清楚</p><p>如果已经有一定基础，也可以将本文作为一次简单的复盘参考</p><p>有什么问题和建议可以私聊我，感谢各位读者</p></blockquote><h1 id="杂项签到"><a href="#杂项签到" class="headerlink" title="杂项签到"></a>杂项签到</h1><p>拿到附件misc1.zip解压<code>.png格式，优先考虑图片隐写</code></p><p><img src="/images/ctf/m01.png" alt="杂项题"></p><p>打开<code>010或winhex工具查看十六进制</code>,宽高调试并没有找到。</p><p><img src="/images/ctf/m02.png" alt="杂项题"></p><p>直接<code>搜索</code>ctf或者flag试试</p><p><img src="/images/ctf/m03.png" alt="杂项题"></p><p> <strong>flag：ctfshow{a62b0b55682d81f7f652b26147c49040}</strong></p><p>测试中</p>]]></content>
       
       
       <categories>
