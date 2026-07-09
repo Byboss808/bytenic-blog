@@ -109,12 +109,22 @@ a:focus {
     background: rgba(15,18,24,.42) !important;
 }
 
-/* 浅色模式标准平铺 */
+/* 浅色模式标准平铺：调高白色不透明度，增加毛玻璃质感，确保文字清晰 */
 [data-theme="light"] .recent-post-item,
 [data-theme="light"] .card-widget,
 [data-theme="light"] .layout>div:first-child:not(.recent-posts),
 [data-theme="light"] .layout>.recent-posts>.pagination>* {
-    background: rgba(255,255,255,.32) !important;
+    background: rgba(255, 255, 255, 0.75) !important; /* 从 .32 调高到 0.75，背景更实，字更清晰 */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08) !important; /* 浅色模式下的阴影调柔和 */
+}
+
+/* 浅色模式专属优化：消除深色文字阴影，防止字体发糊，并加深字体颜色 */
+[data-theme="light"] #nav .site-page,
+[data-theme="light"] .card-widget .item-headline,
+[data-theme="light"] .card-widget .headline,
+[data-theme="light"] .recent-post-item .article-title {
+    text-shadow: none !important;
+    color: #2c3e50 !important; 
 }
 
 /* 强化文字清晰度 */
@@ -150,4 +160,239 @@ a:focus {
         backdrop-filter: blur(16px) !important; /* 稍微调低一点点手机端的模糊半径，大幅减少手机 GPU 的滑屏渲染压力 */
         -webkit-backdrop-filter: blur(16px) !important;
     }
+}
+
+/* ==========================================================
+   📖 ByteNic Blog - 阅读体验优化
+   放到 custom.css 最后即可
+   ========================================================== */
+
+/* =======================
+   正文整体
+   ======================= */
+#article-container {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: .3px;
+    word-break: break-word;
+}
+
+/* 段落 */
+#article-container p {
+    margin: 1.25rem 0;
+}
+
+/* =======================
+   标题
+   ======================= */
+
+#article-container h1 {
+    font-size: 2.3rem;
+    margin: 2.5rem 0 1.2rem;
+    border-bottom: 2px solid rgba(77,163,255,.25);
+    padding-bottom: .6rem;
+}
+
+#article-container h2 {
+    font-size: 1.8rem;
+    margin: 2.2rem 0 1rem;
+    padding-left: 14px;
+    border-left: 4px solid #4DA3FF;
+}
+
+#article-container h3 {
+    font-size: 1.35rem;
+    margin: 1.8rem 0 .8rem;
+}
+
+#article-container h4 {
+    font-size: 1.15rem;
+}
+
+/* =======================
+   加粗
+   ======================= */
+
+#article-container strong{
+    color:#4DA3FF;
+    font-weight:700;
+}
+
+/* =======================
+   引用
+   ======================= */
+
+blockquote{
+    margin:1.5rem 0;
+    padding:18px 22px;
+    border-left:4px solid #4DA3FF!important;
+    background:rgba(77,163,255,.08)!important;
+    border-radius:12px;
+}
+
+/* =======================
+   列表
+   ======================= */
+
+#article-container ul,
+#article-container ol{
+
+    margin:1rem 0;
+
+}
+
+#article-container li{
+
+    margin:.5rem 0;
+
+}
+
+/* =======================
+   行内代码
+   ======================= */
+
+#article-container code{
+
+    font-size:.95em;
+
+    padding:3px 8px;
+
+    border-radius:6px;
+
+}
+
+/* =======================
+   代码块
+   ======================= */
+
+.highlight{
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+    margin:1.8rem 0;
+
+}
+
+/* =======================
+   图片
+   ======================= */
+
+#article-container img{
+
+    border-radius:14px;
+
+    margin:1.8rem auto;
+
+    display:block;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+/* =======================
+   表格
+   ======================= */
+
+#article-container table{
+
+    width:100%;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    margin:1.8rem 0;
+
+}
+
+/* =======================
+   分割线
+   ======================= */
+
+#article-container hr{
+
+    margin:3rem auto;
+
+    width:70%;
+
+    border:none;
+
+    border-top:1px solid rgba(120,120,120,.25);
+
+}
+
+/* =======================
+   文章卡片 Hover
+   ======================= */
+
+.recent-post-item{
+
+    transition:
+
+        transform .35s ease,
+
+        box-shadow .35s ease,
+
+        border-color .35s ease;
+
+}
+
+.recent-post-item:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 18px 40px rgba(0,0,0,.20);
+
+}
+
+/* =======================
+   首页文章进入动画
+   ======================= */
+
+.recent-post-item{
+
+    animation:postFade .7s ease both;
+
+}
+
+@keyframes postFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* =======================
+   深色模式正文
+   ======================= */
+
+[data-theme="dark"] #article-container{
+
+    color:#d9d9d9;
+
+}
+
+/* =======================
+   浅色模式正文
+   ======================= */
+
+[data-theme="light"] #article-container{
+
+    color:#2b2b2b;
+
 }

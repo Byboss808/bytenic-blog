@@ -4,11 +4,38 @@
   
     
     <entry>
+      <title>ctfshow菜狗杯</title>
+      <link href="/2026/07/09/ctfshow%E8%8F%9C%E7%8B%97%E6%9D%AF1/"/>
+      <url>/2026/07/09/ctfshow%E8%8F%9C%E7%8B%97%E6%9D%AF1/</url>
+      
+        <content type="html"><![CDATA[<hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> CTF专栏 </category>
+          
+          <category> ctfshow </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CTFWPff </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World! 欢迎来到Bytenic</title>
       <link href="/2026/07/05/hello-world/"/>
       <url>/2026/07/05/hello-world/</url>
       
-        <content type="html"><![CDATA[<h2 id="关于我：网安萌新"><a href="#关于我：网安萌新" class="headerlink" title="关于我：网安萌新"></a>关于我：网安萌新</h2><p>你好，我是 <strong>白杨</strong>，在网络世界里更习惯被称为 <strong>Bytenic</strong>(拜特尼克)。</p><p>这里是 <code>bytenic.dev</code> 的第一篇正式文章。搭建这个独立博客网站的初衷，是为了记录自己在网络安全、Web 渗透测试以及 CTF 竞赛路上的点点滴滴。以及开辟一条能帮助萌新师傅们的扫盲之路。</p><p>偶然间我也会陷入所谓的“存在主义危机”，去琢磨人生的出路和意义。但我发现，治愈焦虑最好的解药就是<strong>立刻动起来</strong>。洗个痛快澡、跑个步，或者一头扎进 Linux 命令和配置复盘里，那种代码跑通后的掌控感，能让我瞬间找回向前的动力。</p><blockquote><p>人生没有白走的路，每一步都在为你的底层架构添砖加瓦。</p></blockquote><hr><h2 id="我的装备与任务"><a href="#我的装备与任务" class="headerlink" title="我的装备与任务"></a>我的装备与任务</h2><p>搞网络安全，手头必须有趁手的家伙事。目前陪我主力奋战的是一台 <strong>联想 Y7000P</strong>（i7-14700HX &#x2F; RTX4060 &#x2F; 16GB &#x2F; 1TB SSD）。仅供萌新师傅们参考o。</p><p>回望过去一年，看着 Typora 陆陆续续敲下了超过 2万字的技术配置与基础复盘，只能说：老己，你辛苦了，向着渗透进攻！！</p><p>后续会更新分享笔记工具思路等等。</p><blockquote><p>花有重开日，人无在少年。</p></blockquote><hr><h2 id="屏幕之外"><a href="#屏幕之外" class="headerlink" title="屏幕之外"></a>屏幕之外</h2><p>黑客帝国式的极客生活之外：</p><ul><li><strong>音乐是精神食粮</strong>：累了困了不喝东鹏特饮，寻找我的耳机播放一首张国荣哥哥的《共同渡过》吧。00后的小登也是坐上了非主流的末班车，所有再来一首韩国T-ara的《DAY BY DAY》吧。</li><li><strong>签个到吧</strong>：ZmxhZ3t3ZWxjb21lX3RvX2J5dGVuaWMuZGV2fQ&#x3D;&#x3D;</li></ul><hr><h2 id="写给萌新师傅们"><a href="#写给萌新师傅们" class="headerlink" title="写给萌新师傅们"></a>写给萌新师傅们</h2><p>在网络安全和 CTF 的圈子里，大家都习惯互相称呼一声“师傅”。这一声“师傅”不看学历，不排资历，只看技术和手头过的硬核功夫。</p><p>这一路走来，太清楚自学是一种什么样的体验：</p><ul><li><strong>枯燥与怀疑</strong>：没有电影里敲几下回车就黑掉全场的潇洒，多的是反反复复刷课、记了后面忘前面的沮丧 </li><li><strong>配置的折磨</strong>：为了搭一个靶场环境，可能要跟各种报错死磕一整天，敲命令敲到怀疑人生</li><li><strong>前路的焦虑</strong>：面对社会上的各种论调，有时候看着记忆断档的笔记，真的会陷入自我怀疑的怪圈</li></ul><p>但我现在想对每一个萌新师傅说：<strong>忘掉暂时记不住的焦虑，动手去敲，去配置，去把环境跑通。</strong> </p><p>天也老任海也老。任凭外界再嘈杂，在不断的学习下。终究会在你成功拿到一个又一个 System 权限、斩获一个又一个核心漏洞的瞬间。种一棵树最好的时间是十年前，其次是现在。既然我们都站在这条赛道上，那就各自沉淀。</p><hr><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>正如经典港片里演的那样，江湖路漫漫…… 欢迎经常来 <code>bytenic.dev</code> 踩踩！!</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="关于我：网安萌新"><a href="#关于我：网安萌新" class="headerlink" title="关于我：网安萌新"></a>关于我：网安萌新</h1><blockquote><p>你好，我是 <strong>白杨</strong>，在网络世界里更习惯被称为 <strong>Bytenic</strong>。</p></blockquote><p>欢迎来到 <strong><code>bytenic.dev</code></strong>。</p><p>这是这个独立博客网站的第一篇正式文章。</p><p>搭建这个博客的初衷，是为了记录自己在 <strong>网络安全、Web 渗透测试以及 CTF 竞赛</strong> 路上的点点滴滴，也希望能够开辟一条帮助萌新师傅们快速入门的扫盲之路。</p><hr><h2 id="关于学习"><a href="#关于学习" class="headerlink" title="关于学习"></a>关于学习</h2><p>偶然间，我也会陷入所谓的 <strong>「存在主义危机」</strong>。</p><p>去琢磨人生的出路，思考未来的方向，甚至怀疑自己是否真的能够一直坚持下去。</p><p>但总觉得，治愈焦虑最好的解药，不是继续胡思乱想，而是 <strong>立刻动起来</strong>。</p><p>可以是：</p><ul><li>🚿 洗一个痛快的热水澡</li><li>🏃 出去跑一跑步</li><li>🐧 打开 Linux 终端</li><li>⚙️ 继续配置环境</li><li>💻 解决一个 Bug</li></ul><p>当代码终于跑通的那一刻，那种掌控感，总能让我重新找回继续向前的动力。</p><blockquote><p><strong>人生没有白走的路，每一步都在为你的底层架构添砖加瓦。</strong></p></blockquote><hr><h1 id="我的装备与任务"><a href="#我的装备与任务" class="headerlink" title="我的装备与任务"></a>我的装备与任务</h1><blockquote><p>工欲善其事，必先利其器。</p></blockquote><p>目前陪伴我学习网络安全的主力设备：</p><table><thead><tr><th align="left">配置</th><th align="left">参数</th></tr></thead><tbody><tr><td align="left">💻 电脑</td><td align="left">Lenovo Y7000P</td></tr><tr><td align="left">🧠 CPU</td><td align="left">Intel i7-14700HX</td></tr><tr><td align="left">🎮 GPU</td><td align="left">RTX4060</td></tr><tr><td align="left">💾 内存</td><td align="left">16GB</td></tr><tr><td align="left">📀 SSD</td><td align="left">1TB</td></tr></tbody></table><p>一路学习下来，Typora 已经累计记录了 <strong>2 万余字</strong> 的技术配置与基础复盘。</p><p>虽然它们并不华丽，但每一篇笔记都记录着自己踩过的坑、解决过的问题，以及一点一点成长的过程。</p><p>后续也会陆续整理出来，与大家分享自己的学习思路和笔记方法。</p><blockquote><p>花有重开日，人无再少年。</p></blockquote><hr><h1 id="屏幕之外"><a href="#屏幕之外" class="headerlink" title="屏幕之外"></a>屏幕之外</h1><p>黑客帝国式的极客生活之外，也总要留一点时间给自己。</p><h3 id="🎵-音乐"><a href="#🎵-音乐" class="headerlink" title="🎵 音乐"></a>🎵 音乐</h3><p>累了的时候，不喝东鹏特饮。</p><p>戴上耳机。</p><p>播放一首张国荣的 <strong>《共同渡过》</strong>。</p><p>或者，再来一首 T-ara 的 <strong>《DAY BY DAY》</strong>。</p><p>作为 00 后，也算赶上了非主流时代的末班车。</p><hr><h3 id="🚩-签个到吧"><a href="#🚩-签个到吧" class="headerlink" title="🚩 签个到吧"></a>🚩 签个到吧</h3><p>如果你已经看到这里，不妨试试解一道签到题。</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ZmxhZ3t3ZWxjb21lX3RvX2J5dGVuaWMuZGV2fQ==</span><br></pre></td></tr></table></figure><blockquote><p>💡 提示：Base64</p></blockquote><hr><h1 id="写给萌新师傅们"><a href="#写给萌新师傅们" class="headerlink" title="写给萌新师傅们"></a>写给萌新师傅们</h1><p>在网络安全和 CTF 圈子里，大家都习惯互相称呼一声 <strong>「师傅」</strong>。</p><p>这一声师傅，不看学历，不排资历，也不论年龄。</p><p>看的是技术；拼的是实力；靠的是一次又一次亲手解决问题的过程。</p><hr><p>这一路走来，我太清楚自学是一种什么样的体验。</p><h3 id="📖-枯燥与怀疑"><a href="#📖-枯燥与怀疑" class="headerlink" title="📖 枯燥与怀疑"></a>📖 枯燥与怀疑</h3><p>没有电影里敲几下回车就黑掉全场的潇洒。</p><p>更多的时候，是反反复复刷课、记了后面忘前面，然后一次又一次重新开始。</p><hr><h3 id="⚙️-配置的折磨"><a href="#⚙️-配置的折磨" class="headerlink" title="⚙️ 配置的折磨"></a>⚙️ 配置的折磨</h3><p>为了搭建一个靶场环境。</p><p>可能要跟各种报错死磕一整天。</p><p>敲命令敲到怀疑人生。</p><p>最后才发现，问题可能只是少写了一个字符。</p><hr><h3 id="😶-前路的焦虑"><a href="#😶-前路的焦虑" class="headerlink" title="😶 前路的焦虑"></a>😶 前路的焦虑</h3><p>面对学历。</p><p>面对就业。</p><p>面对互联网上各种各样的声音。</p><p>有时候，看着记忆断档的笔记，也会忍不住开始怀疑自己。</p><hr><p>但现在，还是想对每一个刚刚踏入网络安全的萌新师傅说一句：</p><blockquote><p><strong>忘掉暂时记不住的焦虑。</strong></p></blockquote><p>去动手。</p><p>去敲命令。</p><p>去配置环境。</p><p>去把它真正跑通。</p><p>技术从来不是看会的，而是一遍又一遍实践出来的。</p><p>任凭外界再嘈杂，只要不断学习，不断积累。</p><p>终有一天，会成功拿下第一个 <strong>System 权限</strong>。</p><p>也会成功复现第一个漏洞。</p><p>更会发现，曾经那些看似无意义的坚持，最终都会成为自己最坚实的底气。</p><blockquote><p><strong>种一棵树最好的时间是十年前，其次是现在。</strong></p></blockquote><p>既然我们都站在这条赛道上。</p><p>那就各自沉淀，静待成长。</p><hr><h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>江湖路漫漫。</p><p>愿我们都能保持对技术最初的热爱。</p><p>也愿未来回头再看时，能够感谢今天依然没有放弃的自己。</p><p>如果你也正在学习网络安全，欢迎经常来 <strong><code>bytenic.dev</code></strong> 看看。</p><p>也许下一篇文章，就能帮助你少踩一个坑。</p><p><strong>山高路远，江湖再见。</strong></p>]]></content>
       
       
       <categories>
