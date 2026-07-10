@@ -1,8 +1,8 @@
 /* ========================================================
-   ByteNic Theme V1 - 核心完全体（降服 Chromium 内核专版）
+   ByteNic Theme V1 - 核心完全体（排版与移动端优化版）
    ======================================================== */
 
-/* 1. 终极底色硬垫底，从最底层的 html 就锁死暗色，不给浏览器留任何白/黑真空期 */
+/* 1. 终极底色硬垫底 */
 html {
     background-color: #0d1117 !important;
 }
@@ -33,7 +33,7 @@ body,
     border-bottom: 1px solid rgba(255,255,255,.08);
 }
 
-/* 所有卡片：强制开启 isolation 隔离层，防止毛玻璃在跳转时因为找不到底色而发生重绘黑闪 */
+/* 所有卡片：强制开启 isolation 隔离层 */
 .recent-post-item,
 .card-widget,
 .layout>div:first-child:not(.recent-posts),
@@ -47,7 +47,7 @@ body,
     border: 1px solid rgba(255,255,255,.08) !important;
     border-radius: 18px !important;
     box-shadow: 0 12px 30px rgba(0,0,0,.18) !important;
-    isolation: isolate !important; /* 👈 告诉 Chromium 将卡片渲染上下文独立，不与外部混合计算 */
+    isolation: isolate !important;
     transition: background-color 0.3s ease, border-color 0.3s ease !important;
 }
 
@@ -109,16 +109,16 @@ a:focus {
     background: rgba(15,18,24,.42) !important;
 }
 
-/* 浅色模式标准平铺：调高白色不透明度，增加毛玻璃质感，确保文字清晰 */
+/* 浅色模式标准平铺 */
 [data-theme="light"] .recent-post-item,
 [data-theme="light"] .card-widget,
 [data-theme="light"] .layout>div:first-child:not(.recent-posts),
 [data-theme="light"] .layout>.recent-posts>.pagination>* {
-    background: rgba(255, 255, 255, 0.75) !important; /* 从 .32 调高到 0.75，背景更实，字更清晰 */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08) !important; /* 浅色模式下的阴影调柔和 */
+    background: rgba(255, 255, 255, 0.75) !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08) !important;
 }
 
-/* 浅色模式专属优化：消除深色文字阴影，防止字体发糊，并加深字体颜色 */
+/* 浅色模式专属优化 */
 [data-theme="light"] #nav .site-page,
 [data-theme="light"] .card-widget .item-headline,
 [data-theme="light"] .card-widget .headline,
@@ -139,287 +139,189 @@ a:focus {
     text-shadow: 0 0 8px rgba(77, 163, 255, 0.6);
 }
 
-/* ========================================================
-   📱 手机端响应式优化（与电脑端共用同一个视频背景）
-   ======================================================== */
-@media screen and (max-width: 768px) {
-    /* 1. 解除手机端对视频的隐藏，让它和电脑端一样正常显示 */
-    .full-bg-video {
-        display: block !important;
-    }
-    
-    /* 2. 彻底关闭原本的图片背景 */
-    #web_bg {
-        display: none !important;
-    }
-
-    /* 3. 针对移动端浏览器（如手机 Edge/Safari）微调卡片模糊，确保滑屏时流畅不卡顿 */
-    .recent-post-item,
-    .card-widget,
-    .layout>div:first-child:not(.recent-posts) {
-        backdrop-filter: blur(16px) !important; /* 稍微调低一点点手机端的模糊半径，大幅减少手机 GPU 的滑屏渲染压力 */
-        -webkit-backdrop-filter: blur(16px) !important;
-    }
-}
-
 /* ==========================================================
-   📖 ByteNic Blog - 阅读体验优化
-   放到 custom.css 最后即可
+   📖 ByteNic Blog - 阅读体验与间距优化 (PC端基准)
    ========================================================== */
 
-/* =======================
-   正文整体
-   ======================= */
+/* 正文整体 */
 #article-container {
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: .3px;
+    font-size: 17px;         /* 略微调紧字号 */
+    line-height: 1.8;        /* 行高从 2 缩减到 1.8，更紧凑 */
+    letter-spacing: .2px;
     word-break: break-word;
 }
 
-/* 段落 */
+/* 段落间距紧凑化 */
 #article-container p {
-    margin: 1.25rem 0;
+    margin: 0.7rem 0;        /* 从 1.25rem 大幅缩减 */
 }
 
-/* =======================
-   标题
-   ======================= */
-
+/* 标题间距与大小紧凑化 */
 #article-container h1 {
-    font-size: 2.3rem;
-    margin: 2.5rem 0 1.2rem;
+    font-size: 2.0rem;
+    margin: 1.8rem 0 0.8rem; /* 减少上下外边距 */
     border-bottom: 2px solid rgba(77,163,255,.25);
-    padding-bottom: .6rem;
+    padding-bottom: .4rem;
 }
 
 #article-container h2 {
-    font-size: 1.8rem;
-    margin: 2.2rem 0 1rem;
-    padding-left: 14px;
+    font-size: 1.55rem;
+    margin: 1.5rem 0 0.7rem;
+    padding-left: 10px;
     border-left: 4px solid #4DA3FF;
 }
 
 #article-container h3 {
-    font-size: 1.35rem;
-    margin: 1.8rem 0 .8rem;
+    font-size: 1.25rem;
+    margin: 1.2rem 0 0.5rem;
 }
 
 #article-container h4 {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
+    margin: 1rem 0 0.4rem;
 }
 
-/* =======================
-   加粗
-   ======================= */
-
-#article-container strong{
-    color:#4DA3FF;
-    font-weight:700;
+/* 加粗 */
+#article-container strong {
+    color: #4DA3FF;
+    font-weight: 700;
 }
 
-/* =======================
-   引用
-   ======================= */
-
-blockquote{
-    margin:1.5rem 0;
-    padding:18px 22px;
-    border-left:4px solid #4DA3FF!important;
-    background:rgba(77,163,255,.08)!important;
-    border-radius:12px;
+/* 引用块紧凑化 */
+blockquote {
+    margin: 0.9rem 0;
+    padding: 12px 18px;
+    border-left: 4px solid #4DA3FF !important;
+    background: rgba(77,163,255,.08) !important;
+    border-radius: 8px;
 }
 
-/* =======================
-   列表
-   ======================= */
-
+/* 列表紧凑化 */
 #article-container ul,
-#article-container ol{
-
-    margin:1rem 0;
-
+#article-container ol {
+    margin: 0.6rem 0;
+    padding-left: 24px;
 }
 
-#article-container li{
-
-    margin:.5rem 0;
-
+#article-container li {
+    margin: 0.3rem 0;
 }
 
-/* =======================
-   行内代码
-   ======================= */
-
-#article-container code{
-
-    font-size:.95em;
-
-    padding:3px 8px;
-
-    border-radius:6px;
-
+/* 行内代码 */
+#article-container code {
+    font-size: .9em;
+    padding: 2px 6px;
+    border-radius: 4px;
 }
 
-/* =======================
-   代码块
-   ======================= */
-
-.highlight{
-
-    border-radius:14px;
-
-    overflow:hidden;
-
-    margin:1.8rem 0;
-
+/* 代码块紧凑化 */
+.highlight {
+    border-radius: 10px;
+    margin: 1.0rem 0;        /* 缩减代码块上下空隙 */
 }
 
-/* =======================
-   图片
-   ======================= */
-
-#article-container img{
-
-    border-radius:14px;
-
-    margin:1.8rem auto;
-
-    display:block;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
-
+/* 表格紧凑化 */
+#article-container table {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1.0rem 0;
 }
 
-/* =======================
-   表格
-   ======================= */
-
-#article-container table{
-
-    width:100%;
-
-    border-radius:12px;
-
-    overflow:hidden;
-
-    margin:1.8rem 0;
-
+/* 分割线 */
+#article-container hr {
+    margin: 2.0rem auto;     /* 缩减分割线空隙 */
+    width: 60%;
+    border: none;
+    border-top: 1px solid rgba(120,120,120,.25);
 }
 
-/* =======================
-   分割线
-   ======================= */
-
-#article-container hr{
-
-    margin:3rem auto;
-
-    width:70%;
-
-    border:none;
-
-    border-top:1px solid rgba(120,120,120,.25);
-
+/* ----------------------------------------------------------
+   🖼️ 图片纯净样式（无圆角、无悬停放大、左对齐、支持灯箱）
+   ---------------------------------------------------------- */
+#article-container img {
+    display: block !important;
+    margin: 0.8rem 0 !important;   /* 彻底去掉 auto，实现靠左对齐，并保持合理的上下间距 */
+    max-width: 90%;
+    height: auto;
+    border-radius: 0 !important;   /* 坚决不要圆角 */
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    transition: none !important;   /* 砍掉动画 */
 }
 
-/* =======================
-   文章卡片 Hover
-   ======================= */
-
-.recent-post-item{
-
-    transition:
-
-        transform .35s ease,
-
-        box-shadow .35s ease,
-
-        border-color .35s ease;
-
+/* 移除所有可能导致鼠标悬停图片放大的干扰规则 */
+#article-container img:hover {
+    transform: none !important;
 }
 
-.recent-post-item:hover{
-
-    transform:translateY(-6px);
-
-    box-shadow:0 18px 40px rgba(0,0,0,.20);
-
+/* 文章卡片 Hover 动效保持 */
+.recent-post-item {
+    transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+    animation: postFade .7s ease both;
+}
+.recent-post-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 35px rgba(0,0,0,.20);
 }
 
-/* =======================
-   首页文章进入动画
-   ======================= */
-
-.recent-post-item{
-
-    animation:postFade .7s ease both;
-
+@keyframes postFade {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes postFade{
+/* 深浅色模式正文基本色 */
+[data-theme="dark"] #article-container { color: #d9d9d9; }
+[data-theme="light"] #article-container { color: #2b2b2b; }
 
-    from{
 
-        opacity:0;
-
-        transform:translateY(30px);
-
+/* ========================================================
+   📱 手机端响应式深度优化（屏幕宽度 <= 768px）
+   ======================================================== */
+@media screen and (max-width: 768px) {
+    /* 1. 视频背景在手机端正常铺满 */
+    .full-bg-video {
+        display: block !important;
+    }
+    #web_bg {
+        display: none !important;
     }
 
-    to{
-
-        opacity:1;
-
-        transform:translateY(0);
-
+    /* 2. 减轻手机滑屏时的 GPU 渲染压力 */
+    .recent-post-item,
+    .card-widget,
+    .layout>div:first-child:not(.recent-posts) {
+        backdrop-filter: blur(16px) !important;
+        -webkit-backdrop-filter: blur(16px) !important;
     }
 
-}
+    /* 3. 手机端正文排版紧凑化适配（核心修正） */
+    #article-container {
+        font-size: 15px !important;    /* 手机端字号稍微缩小，更符合移动端阅读习惯 */
+        line-height: 1.65 !important;  /* 进一步收紧行高，防止字距过宽 */
+        letter-spacing: 0px !important;
+    }
 
-/* =======================
-   深色模式正文
-   ======================= */
+    /* 压缩手机端的段落与组件间距，消灭破碎感 */
+    #article-container p {
+        margin: 0.5rem 0 !important;
+    }
 
-[data-theme="dark"] #article-container{
+    #article-container h1 { font-size: 1.6rem !important; margin: 1.2rem 0 0.6rem !important; }
+    #article-container h2 { font-size: 1.35rem !important; margin: 1.0rem 0 0.5rem !important; }
+    #article-container h3 { font-size: 1.15rem !important; margin: 0.8rem 0 0.4rem !important; }
+    
+    .highlight {
+        margin: 0.7rem 0 !important;   /* 手机端代码块间距减小 */
+    }
+    
+    blockquote {
+        margin: 0.6rem 0 !important;
+        padding: 10px 14px !important;
+    }
 
-    color:#d9d9d9;
-
-}
-
-/* =======================
-   浅色模式正文
-   ======================= */
-
-[data-theme="light"] #article-container{
-
-    color:#2b2b2b;
-
-}
-/* ==========================================
-   图片统一样式
-   ========================================== */
-
-#article-container img{
-
-    display:block;
-
-    margin:30px auto;
-
-    max-width:85%;
-
-    height:auto;
-
-    border-radius:12px;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
-
-    transition:.3s;
-
-}
-
-#article-container img:hover{
-
-    transform:scale(1.02);
-
+    /* 手机端图片宽度铺满，表现更好 */
+    #article-container img {
+        max-width: 100% !important;
+        margin: 0.6rem 0 !important;
+    }
 }
